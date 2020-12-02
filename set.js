@@ -53,3 +53,10 @@ s.has(3) // false
 
 s.delete(2);
 s.has(2) // false
+
+
+
+let set = new Set([1,2,3,4,5,6,7,8]);
+
+set = new Set([...set].filter(item=>item%2==0));
+
